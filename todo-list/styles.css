@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+    gap: 10rem 0rem;
+    background-color: #F5FCFF;
+}
+
+header {
+    grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+main {
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0;
+}
+
+#tasks {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 0;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#text {
+
+}
+
+#content:focus{
+    outline: none;
+}
